@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:LOGGER xmlns:tns="http://www.szboc.cn/projects/open/platform/communication/logger" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.szboc.cn/projects/open/platform/communication/logger xsd/message_logger_config.xsd ">
+  <tns:ORI_MSG_FILE_SAVE_POLICY>30</tns:ORI_MSG_FILE_SAVE_POLICY>
+</tns:LOGGER>

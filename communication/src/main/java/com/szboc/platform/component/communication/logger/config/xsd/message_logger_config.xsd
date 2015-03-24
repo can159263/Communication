@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.szboc.cn/projects/open/platform/communication/logger" 
+	xmlns:tns="http://www.szboc.cn/projects/open/platform/communication/logger" 
+	elementFormDefault="qualified">
+	
+	<xs:annotation>
+		<xs:documentation>报文日志组件配置文件校验规则</xs:documentation>
+	</xs:annotation>
+
+	<xs:element name="LOGGER">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="1">
+				<!-- 日志文件保存策略，当前版本紧支持天数 -->
+				<xs:element name="ORI_MSG_FILE_SAVE_POLICY" type="xs:int" nillable="false" default="30"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</schema>
